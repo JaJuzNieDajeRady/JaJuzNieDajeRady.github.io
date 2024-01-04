@@ -4,6 +4,7 @@ background: linear-gradient(90deg, rgba(9,98,121,1) 1%, rgba(0,21,40,1) 100%);
     color: white;
     font-family: "poppinslight";
     text-transform: uppercase;
+    font-weight: 200;
 }
 @font-face {
     font-family: 'poppinslight';
