@@ -2,7 +2,16 @@
     background: rgb(9,98,121);
 background: linear-gradient(90deg, rgba(9,98,121,1) 1%, rgba(0,21,40,1) 100%);
     color: white;
-    font-family: sans-serif;
+    font-family: "poppinslight";
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url("poppins-light-webfont.woff2") format('woff2'),
+         url("poppins-light-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 :root{
