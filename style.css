@@ -51,7 +51,7 @@ h1{
     height: 100%;
     object-fit:cover ;
 }
-
+/*
 .card::after {
     content: "Dzień dobry";
     display: flex;
@@ -67,7 +67,7 @@ h1{
     opacity: 0;
     z-index: 1;
 }
-
+*/
 .card:hover::after{
     opacity: 1;
 }
