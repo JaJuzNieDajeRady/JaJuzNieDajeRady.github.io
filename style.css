@@ -41,16 +41,14 @@ nav ul li a:hover{
     margin-top: 100px;
     flex-direction: row;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    row-gap: 100px;    
+    row-gap: 100px;   
 }
 .description{
     height: var(--height);
-    width: 500px;
+    width: 600px;
     background: none;
-    margin-left: 100px;
-    margin-right: 100px;
     
 }
 h1{
@@ -58,6 +56,7 @@ h1{
     text-align: justify;
     background: none;
     font-weight: 300;
+    text-shadow:  0 0 1.6em black;
 }
 :root{
     --height: calc(800px * 0.6);
