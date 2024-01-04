@@ -1,6 +1,5 @@
 *{
-    background: rgb(9,98,121);
-background: linear-gradient(90deg, rgba(9,98,121,1) 1%, rgba(0,21,40,1) 100%);
+    background: black;
     color: white;
     font-family: "poppinslight";
     text-transform: uppercase;
@@ -19,12 +18,6 @@ background: linear-gradient(90deg, rgba(9,98,121,1) 1%, rgba(0,21,40,1) 100%);
     --height: calc(800px * 0.5);
     --width: calc(640px * 0.5);
 }
-
-.container{
-    width: 100%;
-    height: 100lvh;
-}
-
 .header{
     position: sticky;
     top: 0px;
@@ -44,6 +37,7 @@ h1{
     justify-content: space-evenly;
     flex-wrap: wrap;
     row-gap: 100px;   
+    margin-bottom: 100px;
 }
 
 .card {
@@ -51,7 +45,7 @@ h1{
     margin-right: 20px;
     width: var(--width);
     height: var(--height);
-    box-shadow: 0 0 1.6em black;
+    box-shadow: 0 0 20px 0px purple;
     transform: perspective(5000px) rotateY(var(--rotateY)) rotateX(var(--rotateX));
     position: relative;
 }
