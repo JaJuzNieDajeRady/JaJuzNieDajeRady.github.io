@@ -3,45 +3,38 @@
     text-transform: uppercase;
     background: black;   
 }
-
+.stuff{
+  text-align: center;
+}
 h1{
-    position: absolute;
-    font-size: 10rem;
+    font-size: 100px;
     margin: 0;
-    top: 0.1rem;
     background: none;
     text-shadow: 5 5 red;
     color: white;
-    z-index: 5;
+    margin-bottom: -3.5rem;
 }
 h2{
-    position: absolute;
-    font-size: 7rem;
+    font-size: 70px;
     margin: 0;
-    top: 8rem;
-    padding-left: 0.23rem;
     background: none;
+    margin-bottom: -3.5rem;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 h3{
-    position: absolute;
-    font-size: 9rem;
+    font-size: 100px;
     margin: 0;
     top: 12.5rem;
-    padding-left: 0.44rem;
     background: none;
     color: white;
-    z-index: 5;
+    margin-bottom: -3rem;
 }
 h4{
-    position: absolute;
-    font-size: 5rem;
+    font-size: 50px;
     margin: 0;
-    top: 19.7rem;
-    padding-left: 0.677rem;
     background: none;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
